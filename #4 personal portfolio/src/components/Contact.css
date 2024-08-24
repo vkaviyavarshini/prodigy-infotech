@@ -1,0 +1,37 @@
+.contact {
+  padding: 47px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.pp {
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.pp a {
+  color: #ff6347;
+  text-decoration: none;
+}
+
+.pp a:hover {
+  text-decoration: underline;
+}
+
+.social-linkss {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.social-linkss a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ff6347;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.social-linkss a:hover {
+  text-decoration: underline;
+}
