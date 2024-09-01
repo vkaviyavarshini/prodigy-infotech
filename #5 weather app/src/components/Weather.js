@@ -8,7 +8,7 @@ import './Weather.css'; // Import the CSS file
 const Weather = () => {
   const [city, setCity] = useState('');
   const [weatherData, setWeatherData] = useState(null);
-  const [suggestions, setSuggestions] = useState([]); // State to store city suggestions
+  const [suggestions, setSuggestions] = useState([]);
 
   const fetchWeatherData = async (cityName) => {
     try {
