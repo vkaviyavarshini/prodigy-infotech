@@ -3,7 +3,7 @@ import axios from 'axios';
 import {
   WiCloud, WiDaySunny, WiRain, WiSnow, WiThunderstorm, WiFog, WiStrongWind
 } from 'react-icons/wi';
-import './Weather.css'; // Import the CSS file
+import './Weather.css';
 
 const Weather = () => {
   const [city, setCity] = useState('');
